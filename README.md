@@ -1,0 +1,2 @@
+# inventor-screen-grab
+screenGrab
