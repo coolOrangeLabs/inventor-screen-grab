@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+  <assemblyIdentity name="Screenshot" version="1.0.0.0">
+  </assemblyIdentity>
+  <clrClass clsid="{b3aa6727-f2d0-4c6d-8150-16fa9c493dff}"
+		progid="InventorScreenshot.StandardAddInServer"
+		threadingModel="Both"
+		name="InventorScreenshot.StandardAddInServer"
+		runtimeVersion="">
+  </clrClass>
+  <file name="Screenshot.dll" hashalg="SHA1"></file>
+</assembly>

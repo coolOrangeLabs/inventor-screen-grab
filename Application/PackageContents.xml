@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ApplicationPackage SchemaVersion="1.0" AutodeskProduct="Inventor" ProductType="Application" Name="coolOrange screenGrab" AppVersion="19.0.02  " Description="Simple screen capture utility for Autodesk Inventor" Author="coolOrange s.r.l" Icon="./Contents/Documentation/Resources/resized_icon5.ico" AppNameSpace="appstore.exchange.autodesk.com" OnlineDocumentation="www.coolorange.com" HelpFile="./Contents/Documentation/coolOrangescreenGrab.html" ProductCode="{21FC0E6B-F7DE-4229-AC90-2B143EFA5E97}" UpgradeCode="{330C0904-55B3-45DD-94EA-5A14AE5250CE}" SupportedLocales="Enu" FriendlyVersion="19.0.02 ">
+  <CompanyDetails Name="coolOrange s.r.l" Url="www.coolorange.com" Email="support@coolorange.com" Phone=" " />
+  <Components Description="Contents parts">
+    <RuntimeRequirements OS="Win32|Win64" Platform="AIP"/>
+    <ComponentEntry AppName="coolOrangescreenGrab" Version="19.0.02  " ModuleName="./Contents/coolOrange.InventorScreenshot.Inventor.addin" AppDescription="Simple screen capture utility for Autodesk Inventor" />
+    <ComponentEntry AppName="coolOrangescreenGrab" Version="19.0.02  " ModuleName="./Contents/log4net.dll" AppDescription="Simple screen capture utility for Autodesk Inventor" />
+    <ComponentEntry AppName="coolOrangescreenGrab" Version="19.0.02  " ModuleName="./Contents/Log4PostSharp.dll" AppDescription="Simple screen capture utility for Autodesk Inventor" />
+    <ComponentEntry AppName="coolOrangescreenGrab" Version="19.0.02  " ModuleName="./Contents/Log4PostSharp.Weaver.dll" AppDescription="Simple screen capture utility for Autodesk Inventor" />
+    <ComponentEntry AppName="coolOrangescreenGrab" Version="19.0.02  " ModuleName="./Contents/PostSharp.dll" AppDescription="Simple screen capture utility for Autodesk Inventor" />
+    <ComponentEntry AppName="coolOrangescreenGrab" Version="19.0.02  " ModuleName="./Contents/Screenshot.dll" AppDescription="Simple screen capture utility for Autodesk Inventor" />
+  </Components>
+</ApplicationPackage>

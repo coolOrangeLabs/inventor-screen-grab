@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Fragment>
+        <DirectoryRef Id="INSTALLFOLDER">
+            <Component Id="cmp17F317F3B29DC444A1747D8270D1742C" Guid="*">
+                <File Id="fil203B1145C39613A695DA5653C74DA7A0" KeyPath="yes" Source="$(var.OutputHarvestPath)\PackageContents.xml" />
+            </Component>
+            <Directory Id="dir97876F8F53187814DA9C036CB67DE3B6" Name="Contents">
+                <Component Id="cmpED7F6A96BAF499E62A89DFA1CDA48FFE" Guid="*">
+                    <File Id="filD603EBD70048E56789177F771BC6347E" KeyPath="yes" Source="$(var.OutputHarvestPath)\Contents\coolOrange.InventorScreenshot.Inventor.addin" />
+                </Component>
+                <Component Id="cmpE55AE287F3CB154D811353507EE96D51" Guid="*">
+                    <File Id="filC8EDA11CBC2004603F2AB5C5088DAFAD" KeyPath="yes" Source="$(var.OutputHarvestPath)\Contents\log4net.dll" />
+                </Component>
+                <Component Id="cmpDD62882E819C1E6411C9A188883D19F8" Guid="*">
+                    <File Id="fil4B7DF20D582A417941EAABEEBEDBD586" KeyPath="yes" Source="$(var.OutputHarvestPath)\Contents\log4net.xml" />
+                </Component>
+                <Component Id="cmp63FC5486FEF1EED1D91B2A55611822B3" Guid="*">
+                    <File Id="fil6AF4E9E4BEB4C326E9A6859E79449C38" KeyPath="yes" Source="$(var.OutputHarvestPath)\Contents\ReadMe.txt" />
+                </Component>
+                <Component Id="cmp8AC8A30DF0E31954870B76ED73BB0721" Guid="*">
+                    <File Id="filA131947A16FC167DABC5B72377DD9DDE" KeyPath="yes" Source="$(var.OutputHarvestPath)\Contents\Screenshot.dll" />
+                </Component>
+                <Component Id="cmp47318CA5B510D56219D1333B3987FADE" Guid="*">
+                    <File Id="filFF41FCCDAAAB34D33B9E240D63066269" KeyPath="yes" Source="$(var.OutputHarvestPath)\Contents\Screenshot.dll.config" />
+                </Component>
+                <Component Id="cmp6A000BA15CA5E716E0275903D9FAC09B" Guid="*">
+                    <File Id="fil673A9CC07D903C3C5D9977AB9258951D" KeyPath="yes" Source="$(var.OutputHarvestPath)\Contents\Screenshot.dll.log4net" />
+                </Component>
+                <Directory Id="dir87A0704A3BC0291D35BC74FB36FB56F9" Name="Resources">
+                    <Component Id="cmpEB652ED6289FE9D94AB597A46E298B05" Guid="*">
+                        <File Id="filCB61F387FD2147146C5666EF1F6DB436" KeyPath="yes" Source="$(var.OutputHarvestPath)\Contents\Resources\white.bmp" />
+                    </Component>
+                </Directory>
+            </Directory>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <ComponentGroup Id="SCREENSHOT_OUTPUT">
+            <ComponentRef Id="cmp17F317F3B29DC444A1747D8270D1742C" />
+            <ComponentRef Id="cmpED7F6A96BAF499E62A89DFA1CDA48FFE" />
+            <ComponentRef Id="cmpE55AE287F3CB154D811353507EE96D51" />
+            <ComponentRef Id="cmpDD62882E819C1E6411C9A188883D19F8" />
+            <ComponentRef Id="cmp63FC5486FEF1EED1D91B2A55611822B3" />
+            <ComponentRef Id="cmp8AC8A30DF0E31954870B76ED73BB0721" />
+            <ComponentRef Id="cmp47318CA5B510D56219D1333B3987FADE" />
+            <ComponentRef Id="cmp6A000BA15CA5E716E0275903D9FAC09B" />
+            <ComponentRef Id="cmpEB652ED6289FE9D94AB597A46E298B05" />
+        </ComponentGroup>
+    </Fragment>
+</Wix>

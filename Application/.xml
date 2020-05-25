@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Screenshot</name>
+    </assembly>
+    <members>
+        <member name="F:InventorScreenshot.FrmSplash.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:InventorScreenshot.FrmSplash.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:InventorScreenshot.FrmSplash.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:InventorScreenshot.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:InventorScreenshot.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:InventorScreenshot.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:InventorScreenshot.Properties.Resources.about">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:InventorScreenshot.Properties.Resources.Help">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:InventorScreenshot.Properties.Resources.screenGrab">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:InventorScreenshot.Properties.Resources.screenGrab1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:InventorScreenshot.Properties.Resources.white">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="M:InventorScreenshot.Utilities.CommonUtils.GetOsVersion(System.Boolean)">
+            <summary>
+            The function determines whether the operating system of the 
+            current machine of any remote machine is a 64-bit operating 
+            system through Windows Management Instrumentation (WMI).
+            </summary>
+            <param name="machineName">
+            The full computer name or IP address of the target machine. "." 
+            or null means the local machine.
+            </param>
+            <param name="domain">
+            NTLM domain name. If the parameter is null, NTLM authentication 
+            will be used and the NTLM domain of the current user will be used.
+            </param>
+            <param name="userName">
+            The user name to be used for the connection operation. If the 
+            user name is from a domain other than the current domain, the 
+            string may contain the domain name and user name, separated by a 
+            backslash: string 'username' = "DomainName\\UserName". If the 
+            parameter is null, the connection will use the currently logged-
+            on user
+            </param>
+            <param name="password">
+            The password for the specified user.
+            </param>
+            <returns>
+            The function returns true if the operating system is 64-bit; 
+            otherwise, it returns false.
+            </returns>
+            <exception cref="!:System.Management.ManagementException">
+            The ManagementException exception is generally thrown with the  
+            error code: System.Management.ManagementStatus.InvalidParameter.
+            You need to check whether the parameters for ConnectionOptions 
+            (e.g. user name, password, domain) are set correctly.
+            </exception>
+            <exception cref="T:System.Runtime.InteropServices.COMException">
+            A common error accompanied with the COMException is "The RPC 
+            server is unavailable. (Exception from HRESULT: 0x800706BA)". 
+            This is usually caused by the firewall on the target machine that 
+            blocks the WMI connection or some network problem.
+            </exception>
+        </member>
+    </members>
+</doc>

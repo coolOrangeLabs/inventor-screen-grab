@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADNPlugin-InventorScreenshot", "Application\ADNPlugin-InventorScreenshot.csproj", "{E3133B87-5830-4ECA-A611-BE8CABD0D3EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C9E5ED58-09B8-49EB-8377-A083BBC67A31}"
+EndProject
+Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "InventorScreenshotWixSetup", "InventorScreenshotWixSetup\InventorScreenshotWixSetup.wixproj", "{63C34769-5BCF-4227-ACF5-BF380D23D093}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E3133B87-5830-4ECA-A611-BE8CABD0D3EF} = {E3133B87-5830-4ECA-A611-BE8CABD0D3EF}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+		Setup|Any CPU = Setup|Any CPU
+		Setup|Mixed Platforms = Setup|Mixed Platforms
+		Setup|x86 = Setup|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3133B87-5830-4ECA-A611-BE8CABD0D3EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3133B87-5830-4ECA-A611-BE8CABD0D3EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3133B87-5830-4ECA-A611-BE8CABD0D3EF}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{E3133B87-5830-4ECA-A611-BE8CABD0D3EF}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{E3133B87-5830-4ECA-A611-BE8CABD0D3EF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E3133B87-5830-4ECA-A611-BE8CABD0D3EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3133B87-5830-4ECA-A611-BE8CABD0D3EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3133B87-5830-4ECA-A611-BE8CABD0D3EF}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{E3133B87-5830-4ECA-A611-BE8CABD0D3EF}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{E3133B87-5830-4ECA-A611-BE8CABD0D3EF}.Release|x86.ActiveCfg = Release|Any CPU
+		{E3133B87-5830-4ECA-A611-BE8CABD0D3EF}.Setup|Any CPU.ActiveCfg = Release|Any CPU
+		{E3133B87-5830-4ECA-A611-BE8CABD0D3EF}.Setup|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{E3133B87-5830-4ECA-A611-BE8CABD0D3EF}.Setup|x86.ActiveCfg = Release|Any CPU
+		{63C34769-5BCF-4227-ACF5-BF380D23D093}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{63C34769-5BCF-4227-ACF5-BF380D23D093}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{63C34769-5BCF-4227-ACF5-BF380D23D093}.Debug|x86.ActiveCfg = Debug|x86
+		{63C34769-5BCF-4227-ACF5-BF380D23D093}.Release|Any CPU.ActiveCfg = Setup|x86
+		{63C34769-5BCF-4227-ACF5-BF380D23D093}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{63C34769-5BCF-4227-ACF5-BF380D23D093}.Release|x86.ActiveCfg = Release|x86
+		{63C34769-5BCF-4227-ACF5-BF380D23D093}.Setup|Any CPU.ActiveCfg = Setup|x86
+		{63C34769-5BCF-4227-ACF5-BF380D23D093}.Setup|Any CPU.Build.0 = Setup|x86
+		{63C34769-5BCF-4227-ACF5-BF380D23D093}.Setup|Mixed Platforms.ActiveCfg = Setup|x86
+		{63C34769-5BCF-4227-ACF5-BF380D23D093}.Setup|Mixed Platforms.Build.0 = Setup|x86
+		{63C34769-5BCF-4227-ACF5-BF380D23D093}.Setup|x86.ActiveCfg = Setup|x86
+		{63C34769-5BCF-4227-ACF5-BF380D23D093}.Setup|x86.Build.0 = Setup|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {759AFC03-9FAA-484E-99C8-D69C6A6E1ECC}
+	EndGlobalSection
+EndGlobal
